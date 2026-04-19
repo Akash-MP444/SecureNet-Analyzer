@@ -13,7 +13,6 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 SERVERS = [
     {"host": "0.0.0.0", "port": 5000, "name": "local_server"},
     # Add more servers as needed
-    # {"host": "192.168.1.100", "port": 5000, "name": "remote_server_1"},
 ]
 
 CLIENT_ID = "client_1"
